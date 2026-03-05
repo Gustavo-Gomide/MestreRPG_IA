@@ -1,0 +1,11 @@
+
+# ── Dependências principais ──────────────────────────────────────────────────
+# Instale com:  pip install -r requirements.txt
+
+pygame>=2.6.0          # Motor gráfico e de áudio
+python-dotenv>=1.0.0   # Leitura do arquivo .env (GROQ_API_KEY)
+groq>=0.4.0            # SDK da API Groq para narração por IA
+                       # Opcional: o jogo funciona sem ela em modo simulação.
+
+# ── Desenvolvimento / ferramentas opcionais ──────────────────────────────────
+# pyinstaller>=6.0     # Para gerar executável standalone (.exe / binário)

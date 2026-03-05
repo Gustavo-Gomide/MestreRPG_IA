@@ -1,0 +1,2 @@
+# Este arquivo existe apenas para garantir que o diretório data/ seja rastreado pelo git.
+# Os arquivos de dados reais (personagens.json, historias.json) estão no .gitignore.

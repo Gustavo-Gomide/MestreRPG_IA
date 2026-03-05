@@ -1,0 +1,2 @@
+# Este arquivo existe apenas para garantir que o diretório data/saves/ seja rastreado pelo git.
+# Os saves reais são gerados automaticamente pelo jogo e estão no .gitignore.

@@ -1,0 +1,33 @@
+﻿# Segredos
+.env
+
+# Ambiente virtual Python
+.venv/
+venv/
+env/
+
+# Cache Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Dados do jogador (salves e personagens locais)
+data/personagens.json
+data/historias.json
+data/saves/*
+
+# Garante que os placeholder files sejam versionados mesmo com o conteúdo ignorado
+!data/.gitkeep
+!data/saves/.gitkeep
+
+# Build / distribuição
+dist/
+build/
+*.spec
+*.egg-info/
+
+# IDE / OS
+.vscode/settings.json
+.idea/
+Thumbs.db
+.DS_Store
