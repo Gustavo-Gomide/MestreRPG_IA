@@ -277,12 +277,26 @@ Modelos Groq disponíveis: `llama-3.3-70b-versatile` · `llama3-70b-8192` · `ll
 
 ---
 
-## Variáveis de ambiente
+## Configurando a API do Groq (IA)
 
-```env
-# .env  (copie de .env.example)
-GROQ_API_KEY=gsk_...   # Obtenha em https://console.groq.com/keys
-```
+O jogo usa o [Groq](https://groq.com) como motor de IA para a narração. A chave é **gratuita** e leva menos de 2 minutos para obter.
+
+**Passo a passo:**
+
+1. Acesse [console.groq.com/keys](https://console.groq.com/keys) e crie uma conta (pode usar o Google)
+2. Clique em **"Create API Key"**, dê um nome qualquer e copie a chave gerada (`gsk_...`)
+3. Na pasta do projeto, copie o arquivo de exemplo:
+   ```bash
+   copy .env.example .env   # Windows
+   # cp .env.example .env   # Linux / Mac
+   ```
+4. Abra o `.env` em qualquer editor de texto e cole sua chave:
+   ```env
+   GROQ_API_KEY=gsk_SUA_CHAVE_AQUI
+   ```
+5. Salve o arquivo e rode o jogo normalmente com `python main.py`
+
+> **Sem chave?** O jogo continua funcionando em **modo simulação** com respostas pré-programadas — útil para testar a interface sem precisar de internet.
 
 ---
 
