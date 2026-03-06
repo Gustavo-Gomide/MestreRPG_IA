@@ -2,9 +2,9 @@
 
 Motor de RPG de mesa com narração por **Inteligência Artificial**, construído com **Python + Pygame**.
 
-> A ideia é simples: você cria o personagem, define a missão e a IA narra uma aventura única com começo, meio e fim — incluindo trilha sonora dinâmica, combate por turnos (em desenvolvimento) e painel lateral de jogo.
+> A ideia é simples: você cria o personagem, define a missão e a IA narra uma aventura única com começo, meio e fim, incluindo trilha sonora dinâmica, combate por turnos (em desenvolvimento) e painel lateral de jogo.
 >
-> Este projeto nasceu de uma aula de IA com o objetivo de entenderIA. Se fizer um  **Fork** pode trocar as músicas, o prompt, as cores e o que mais quiser.
+> Este projeto nasceu de uma aula de IA com o objetivo de entender IA. Se fizer um  **Fork** pode trocar as músicas, o prompt, as cores e o que mais quiser.
 
 ---
 
